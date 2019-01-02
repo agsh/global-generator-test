@@ -1,0 +1,29 @@
+{
+  "name": "global-generator-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "scaffolding": "./bin/app.js"
+  },
+  "dependencies": {
+    "yeoman-environment": "^2.3.4",
+    "yeoman-generator": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agsh/global-generator-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agsh/global-generator-test/issues"
+  },
+  "homepage": "https://github.com/agsh/global-generator-test#readme",
+  "preferGlobal": true
+}
